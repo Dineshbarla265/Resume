@@ -3,21 +3,42 @@
     <head>
         <meta charset="UTF-8">
         <title>My Resume</title>
+        <style>
+            .H1, .H7, .H8{
+                background-color: cadetblue;
+            }
+            .H2, .H6, .photo{
+                background-color: cadetblue;
+            }
+            .button, .photo{
+                text-align: center;
+            }
+            .H4, .H5{
+                background-color: cadetblue;
+            }
+            .footer{
+                text-align: center;
+            }
+            .body{
+                border: 3px solid black;
+                
+            }
+        </style>
     </head>
-    <body>
-        <h1>Dinesh Barla</h1>
-        <img src="./Image/IMG_20241108_172803.jpeg" width="200">
+    <div class="body"><body>
+        <div class="photo"><h1>Dinesh Barla</h1></div>
+        <img src="./Image/IMG_20241108_172803.jpeg" width="200" >
         <hr/>
-        <h2>Summary</h2>
+        <div class="H1"><h2>Summary</h2></div>
         <p>Seeking a role in an MNC where i can able to upgrade my skills with time and i can able to achieve my goals and asuccessful career.</p>
         <hr />
-        <h2>Education</h2>
-        <table>
-            <tr>
+        <div class="H2"><h2>Education</h2></div>
+        <table boarder="2px" border>
+            <tr><div class="h3">
                 <th>S.no</th>
                 <th>Education Details</th>
                 <th>Percentage</th>
-            </tr>
+            </div></tr>
             <tr>
                 <td>1</td>
                 <td>Lendi Institute Of enginnering And Technology</td>
@@ -35,36 +56,38 @@
             </tr>
         </table>
         <hr />
-        <h2>Skills</h2>
+        <div class="H4"><h2>Skills</h2></div>
         <ul>
             <li>C Programming</li>
             <li>HTML</li>
             <li>CSS</li>
         </ul>
         <hr />
-        <h2>Internships</h2>
+        <div class="H5"><h2>Internships</h2></div>
         <ul>
             <li>Cyber Security virtual Internship</li>
             <li>Process Mining virtual Internship</li>
         </ul>
         <hr />
-        <h2>Project</h2>
+        <div class="H6"><h2>Project</h2></div>
         <h3>Smart Traffic Light System</h3>
         <ul>
             <li><p>This Project is mainly about the saving of time during the Hugetraffic we know that in our daily life cycle traffic is a big issue eventhe less traffic side is also given time like of a heavier traffic side.</p></li>
         </ul>
         <hr />
-        <h2>Strengths</h2>
+        <div class="H7"><h2>Strengths</h2></div>
         <ul>
             <li>Self Motivated</li>
             <li>Time Management</li>
             <li>Hard working</li>
         </ul>
         <hr />
-        <h2>Declaration</h2>
+        <div class="H8"><h2>Declaration</h2></div>
          <p>I here by declare that all the information given above is true andcorrect to the best of my knowledge.</p>
          <hr />
-         <a href="./public/contact.html">Contact Me</a>
-         <footer>
+         <div class="button"><a href="./public/contact.html">Contact Me</a></div>
+         <div class="footer"><footer>
             <p>© Dinesh Barla. All Rights reserved</p>
-         </footer>
+         </footer></div>
+     </body>
+</html>
